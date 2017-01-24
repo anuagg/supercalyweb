@@ -1,0 +1,19 @@
+extend layout
+
+block head_content
+  title SuperCaly download
+  script(src='/javascripts/mainPage.js') 
+  link(rel='stylesheet', type='text/css', href='/stylesheets/styleFeature.css')
+  
+block content
+  include navbar.pug
+  #content
+    p 
+    .group
+      .item Click on the link below to download SuperCaly apk :
+        br   
+        | -> version 1.1         
+        a(href='/apk/app-debug.apk') SuperCaly apk
+
+      
+  
