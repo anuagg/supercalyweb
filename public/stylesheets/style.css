@@ -7,7 +7,7 @@ body {
   background-attachment: fixed;
 }
 
-a.header
+.header
 {
     font-family: Papyrus, fantasy;
 	font-size: 120px;
@@ -31,23 +31,8 @@ a.header
 	padding: 0;
 	background-color: #333;
 	border-bottom: 1px solid #ccc;  
-    visibility: hidden;
     }
-#subnavbar
-{
-    width:100%;
-    float: left;
-	margin: 0 0 1em 0;
-	padding: 0;
-	background-color: #333 ;
-	border-bottom: 1px solid #ccc;     
-}
-#subnavbar li:first-child {
-    float:left;
-    height: 5px;  
-    padding : 0;
-    margin:0;
-}
+
 #nav ul 
 {
 	list-style: none;
@@ -63,23 +48,7 @@ a.header
 	font-size: 30px;
     }
   
-#subnavbar li
-{
-    float: right; 
-    font-family: Papyrus, fantasy;
-	font-size: 20px;
-    display: block;
-    text-decoration: none;
-    padding: 8px 25px;
-	text-decoration: none;
-	font-weight: bold;
-} 
-#subnavbar li a 
-{
-	text-decoration: none;
-	color: white;
-	
-    } 
+
 
 #nav li a 
 {

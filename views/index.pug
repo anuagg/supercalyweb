@@ -3,16 +3,17 @@ extend layout
 block head_content
   title SuperCaly
   script(src='/javascripts/mainPage.js') 
+  link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
   
 block content
-  a.header#oc(href="") SuperCaly
+  .header SuperCaly
   div#nav
     ul
           li
             a(href='/features') Features
           li
-            a(href='/download') Download Apk
+            a(href='/apk/app-debug.apk') Download Apk
           li
-            a(href='') Tutorial
+            a(href='/tutorial') Tutorial
           li
             a(href='/aboutUs') About Us
